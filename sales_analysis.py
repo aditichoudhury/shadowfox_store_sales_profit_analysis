@@ -66,12 +66,12 @@ plt.xlabel('Profit Margin')
 plt.ylabel('Sub-Category')
 plt.show()
 
-# Group by Customer Segment and analyze sales and profits
-customer_sales = df.groupby('CustomerSegment')[['Sales', 'Profit']].sum().reset_index()
+# Group by the 'Segment' column instead of 'CustomerSegment'
+customer_sales = df.groupby('Segment')[['Sales', 'Profit']].sum().reset_index()
 
 # Plot the sales by customer segment
 plt.figure(figsize=(8, 5))
-sns.barplot(x='CustomerSegment', y='Sales', data=customer_sales)
+sns.barplot(x='Segment', y='Sales', data=customer_sales)
 plt.title('Sales by Customer Segment')
 plt.xlabel('Customer Segment')
 plt.ylabel('Sales')
