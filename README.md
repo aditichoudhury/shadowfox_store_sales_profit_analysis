@@ -17,15 +17,6 @@ The dataset used is from the **Sample - Superstore** and contains various column
    - Temporal sales trends: Analyze sales patterns by month and year.
    - Category performance: Identify top-performing categories and sub-categories.
 
-## Sales Trends Analysis
-![Sales Trends](images/sales_trends.png)
-
-## Category Performance Analysis
-![Category Analysis](images/category_analysis.png)
-
-## Profit Analysis
-![Profit Analysis](images/profit_analysis.png)
-
 ## Technologies Used
 - **Python** (Pandas for data analysis)
 - **Matplotlib** & **Seaborn** for visualizations
